@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavbarBrand } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
