@@ -1,8 +1,5 @@
 import React from 'react';
 
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 import Axios from 'axios';
@@ -73,7 +70,7 @@ class ProjectsPage extends React.Component {
                 <Hero title={this.props.title} />
 
                 <Content>
-                    List of projects here.
+                    Below are some of my featured projects. You can find more of my most recent personal work on my <a href="https://github.com/davidanderson281">Github</a>
                 </Content>
             </div>
         );

@@ -16,47 +16,32 @@ function AboutPage(props) {
                         <Col>
                             <h4>Programming Languages & Frameworks</h4>
                             <ul>
-                                <li><a href="">Amazon Web Services</a></li>
-                                <li><a href="">Angular</a></li>
-                                <li><a href=""></a></li>
-                                libgdx
-                                <li><a href="">Fitnesse</a></li>
-                                <li><a href="">HTML5</a></li>
-                                <li><a href="">Java</a></li>
+                                <li><a href="https://aws.amazon.com/">Amazon Web Services</a></li>
+                                <li><a href="https://angular.io/">Angular</a></li>
+                                <li><a href="https://html.spec.whatwg.org/">HTML5</a></li>
+                                <li><a href="https://www.oracle.com/uk/java/technologies/javase-downloads.html">Java</a></li>
                                 <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JSF</a></li>
-                                <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JUnit</a></li>
-                                <li><a href="">React</a></li>
-                                <li><a href="">Spring</a></li>
+                                <li><a href="https://libgdx.com/">libGDX</a></li>
+                                <li><a href="https://reactjs.org/">React</a></li>
+                                <li><a href="https://spring.io/">Spring</a></li>
                             </ul>
                         </Col>
                         <Col>
                             <h4>Testing Frameworks</h4>
                             <ul>
-                                <li><a href="">Amazon Web Services</a></li>
-                                <li><a href="">Angular</a></li>
-                                <li><a href="">Cucumber</a></li>
-                                <li><a href="">Fitnesse</a></li>
-                                <li><a href="">HTML5</a></li>
-                                <li><a href="">Java</a></li>
-                                <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JSF</a></li>
-                                <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JUnit</a></li>
-                                <li><a href="">React</a></li>
-                                <li><a href="">Spring</a></li>
+                                <li><a href="https://cucumber.io/">Cucumber</a></li>
+                                <li><a href="http://fitnesse.org/">Fitnesse</a></li>
+                                <li><a href="https://junit.org/">JUnit</a></li>
+                                <li><a href="https://karma-runner.github.io/">Karma</a></li>
+                                <li><a href="https://protractor.angular.io/">Protractor</a></li>
                             </ul>
                         </Col>
                         <Col>
                             <h4>Software</h4>
                             <ul>
-                                <li><a href="">Amazon Web Services</a></li>
-                                <li><a href="">Angular</a></li>
-                                <li><a href="">Cucumber</a></li>
-                                <li><a href="">Fitnesse</a></li>
-                                <li><a href="">HTML5</a></li>
-                                <li><a href="">Java</a></li>
-                                <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JSF</a></li>
-                                <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JUnit</a></li>
-                                <li><a href="">React</a></li>
-                                <li><a href="">Spring</a></li>
+                                <li><a href="">Eclipse</a></li>
+                                <li><a href="">Intellij</a></li>
+                                <li><a href="">MS Office Suite</a></li>
                             </ul>
                         </Col>
                     </Row>
