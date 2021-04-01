@@ -13,11 +13,11 @@ class Carousel extends React.Component {
         this.state = {
             items: [
                 {
-                    id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
+                    id: 0,
+                    title: 'David Anderson',
+                    subTitle: 'About Me',
                     imgSrc: youtube,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    link: '/about',
                     selected: false
                 }
             ]
