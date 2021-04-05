@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.switch-container {
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5rem 0.5rem 1rem 0rem;
+}
+
+.dark-header-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.switch {
+  padding-left: 0.5rem;
+}
+
+.dark {
+  color: white;
+  background-color: #343a40 !important;
+}

@@ -43,34 +43,36 @@ class App extends React.Component {
 
   handleChange(darkMode) {
     this.setState({ darkMode });
-    console.log('dark: ' + darkMode);
   }
 
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
+        <Container className={`p-0 ${this.state.darkMode ? "dark" : ""}`} fluid={true}>
           <Navbar className="border-bottom" bg={this.state.darkMode ? 'dark' : 'light'} expand="lg" variant={this.state.darkMode ? 'dark' : 'light'}>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+              <Nav className="mr-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
-                <div>
+                {/* <Link className="nav-link" to="/contact">Contact</Link> */}
+              </Nav>
+              <Nav className="ml-auto">
+                <div className={`switch-container ${this.state.darkMode ? "dark-header-text" : ""}`}>
                 Light
                 <Switch
                   onChange={this.handleChange}
                   checked={this.state.darkMode}
                   onColor="#86d3ff"
                   onHandleColor="#2693e6"
-                  handleDiameter={30}
                   uncheckedIcon={false}
                   checkedIcon={false}
                   boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
                   activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
-                  height={20}
-                  width={48}
+                  height={10}
+                  width={25}
+                  className="switch"
                 /> Dark
                 </div>
                 {/* <Link className="nav-link" to="/contact">Contact</Link> */}
