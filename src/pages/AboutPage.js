@@ -9,12 +9,13 @@ function AboutPage(props) {
             <Hero title={props.title} />
             <Content>
                 Hello! My name is David Anderson and I am a full stack developer from Glasgow, UK.<br />
-                I have a BSc. Computer Science (w/ Hons) degree and have over {new Date().getFullYear() - 2014} experience.<br />
-                I have developed personal and professional projects using various technologies, some of which are mentioned below.
-                <Container className="pt-3">
+                I have a BSc. Computer Science (w/ Hons) degree and have over {new Date().getFullYear() - 2014} years professional experience.<br />
+                I have developed personal and enterprise projects using various technologies, some of which are mentioned below.<br />
+                I have many interests outside of tech including: football, music, running and hillclimbing.
+                <Container className="pt-5">
                     <Row>
                         <Col>
-                            <h4>Programming Languages & Frameworks</h4>
+                            <h4>Languages & Frameworks</h4>
                             <ul>
                                 <li><a href="https://aws.amazon.com/">Amazon Web Services</a></li>
                                 <li><a href="https://angular.io/">Angular</a></li>
@@ -22,6 +23,7 @@ function AboutPage(props) {
                                 <li><a href="https://www.oracle.com/uk/java/technologies/javase-downloads.html">Java</a></li>
                                 <li><a href="https://www.oracle.com/java/technologies/javaserverfaces.html">JSF</a></li>
                                 <li><a href="https://libgdx.com/">libGDX</a></li>
+                                <li><a href="https://www.outsystems.com/">OutSystems</a></li>
                                 <li><a href="https://reactjs.org/">React</a></li>
                                 <li><a href="https://spring.io/">Spring</a></li>
                             </ul>
@@ -39,9 +41,11 @@ function AboutPage(props) {
                         <Col>
                             <h4>Software</h4>
                             <ul>
-                                <li><a href="">Eclipse</a></li>
-                                <li><a href="">Intellij</a></li>
-                                <li><a href="">MS Office Suite</a></li>
+                                <li><a href="https://www.eclipse.org/ide/">Eclipse</a></li>
+                                <li><a href="https://www.jetbrains.com/idea/">IntelliJ</a></li>
+                                <li><a href="https://www.office.com/">MS Office Suite</a></li>
+                                <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                                <li><a href="https://developer.apple.com/xcode/">Xcode</a></li>                                
                             </ul>
                         </Col>
                     </Row>

@@ -70,7 +70,7 @@ class ProjectsPage extends React.Component {
                 <Hero title={this.props.title} />
 
                 <Content>
-                    Below are some of my featured projects. You can find more of my most recent personal work on my <a href="https://github.com/davidanderson281">Github</a>
+                    Below are some of my featured projects. You can find more of my most recent personal work on my <a href="https://github.com/davidanderson281">Github</a>.
                 </Content>
             </div>
         );
