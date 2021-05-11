@@ -51,3 +51,10 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+.about-photo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}

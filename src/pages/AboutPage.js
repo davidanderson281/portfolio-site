@@ -2,16 +2,20 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 import { Container, Row, Col } from 'react-bootstrap';
+import hill from '../assets/images/hill.png';
+import walk from '../assets/images/walk.png';
+import cat from '../assets/images/cat.png';
 
 function AboutPage(props) {
     return (
         <div>
             <Hero title={props.title} />
             <Content>
+                <img src={hill} className="about-photo"></img><img src={walk} className="about-photo"></img><img src={cat} className="about-photo"></img><br />
                 Hello! My name is David Anderson and I am a full stack developer from Glasgow, UK.<br />
                 I have a BSc. Computer Science (w/ Hons) degree and have over {new Date().getFullYear() - 2014} years professional experience.<br />
-                I have developed personal and enterprise projects using various technologies, some of which are mentioned below.<br />
-                I have many interests outside of tech including: football, music, running and hillclimbing.
+                My main backgorund is in Java web development, but have worked with many other technologies. Some of those are listed below.<br />
+                Please check my <a href="/projects">projects</a> page to have a look at what I'm currently working on and previous work.
                 <Container className="pt-5">
                     <Row>
                         <Col>
@@ -50,7 +54,8 @@ function AboutPage(props) {
                         </Col>
                     </Row>
                 </Container>
-
+                I have many interests outside of tech including: football, music, running and hillclimbing.<br />
+                You can find me on <a href="https://uk.linkedin.com/in/david-anderson-7704ba6a">LinkedIn</a>, <a href="https://github.com/davidanderson281">Github</a> and Twitter.
             </Content>
         </div>
     );

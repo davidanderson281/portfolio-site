@@ -2,7 +2,8 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import youtube from '../assets/images/youtube.png';
+import redTieProfile from '../assets/images/redtieprofile.jpg';
+import projects from '../assets/images/projects.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -14,10 +15,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
+                    title: 'Projects',
+                    subTitle: 'Check out my projects',
+                    imgSrc: projects,
+                    link: '/projects',
+                    selected: false
+                },
+                {
+                    id: 1,
                     title: 'David Anderson',
-                    subTitle: 'About Me',
-                    imgSrc: youtube,
+                    subTitle: 'About me',
+                    imgSrc: redTieProfile,
                     link: '/about',
+                    selected: false
+                },
+                {
+                    id: 2,
+                    title: 'Projects',
+                    subTitle: 'Check out my projects',
+                    imgSrc: projects,
+                    link: '/projects',
                     selected: false
                 }
             ]
