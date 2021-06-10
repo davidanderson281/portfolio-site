@@ -55,7 +55,7 @@ function AboutPage(props) {
                     </Row>
                 </Container>
                 I have many interests outside of tech including: football, music, running and hillclimbing.<br />
-                You can find me on <a href="https://uk.linkedin.com/in/david-anderson-7704ba6a">LinkedIn</a>, <a href="https://github.com/davidanderson281">Github</a> and Twitter.
+                You can find me on <a href="https://uk.linkedin.com/in/david-anderson-7704ba6a" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://github.com/davidanderson281" target="_blank" rel="noopener noreferrer">Github</a> and Twitter.
             </Content>
         </div>
     );
