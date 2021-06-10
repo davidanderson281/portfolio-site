@@ -73,7 +73,7 @@ class ProjectsPage extends React.Component {
                     Below are some of my featured projects. You can find more of my most recent personal work on my <a href="https://github.com/davidanderson281">Github</a>.<br />
                     <br />
                     <h5>Race to the Moon (Android game): <a href="https://play.google.com/store/apps/details?id=com.first.gamedemomoonshot&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer">Google Play Store</a></h5>
-                    <img src="https://play-lh.googleusercontent.com/Rgq6ErpvZiBT3UOF_PnQWQux5qrRu9A9_nuIb2JiI4VhqPT3bLo92wCfmonxH3mvwe--=w720-h310-rw"></img>
+                    <img src="https://play-lh.googleusercontent.com/Rgq6ErpvZiBT3UOF_PnQWQux5qrRu9A9_nuIb2JiI4VhqPT3bLo92wCfmonxH3mvwe--=w720-h310-rw" alt="app screen"></img>
                 </Content>
             </div>
         );

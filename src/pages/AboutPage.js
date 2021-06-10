@@ -11,7 +11,7 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                <img src={hill} className="about-photo"></img><img src={walk} className="about-photo"></img><img src={cat} className="about-photo"></img><br />
+                <img src={hill} className="about-photo" alt="hill selfie"></img><img src={walk} className="about-photo" alt="walk selfie"></img><img src={cat} className="about-photo"  alt="cat selfie"></img><br />
                 Hello! My name is David Anderson and I am a full stack developer from Glasgow, UK.<br />
                 I have a BSc. Computer Science (w/ Hons) degree and have over {new Date().getFullYear() - 2014} years professional experience.<br />
                 My main backgorund is in Java web development, but have worked with many other technologies. Some of those are listed below.<br />
